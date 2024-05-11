@@ -43,7 +43,13 @@ function WinnerAnnouncement() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box sx={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', bgcolor: 'background.default' }}>
+      <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      justifyContent="center"
+      minHeight="100vh" 
+      sx={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background:theme.palette.background.default }}>
         <animated.div style={fadeIn}>
           <Card>
             <Typography variant="h4" component="h2" color="primary.main" gutterBottom>
