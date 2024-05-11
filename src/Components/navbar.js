@@ -12,7 +12,7 @@ import { Link as RouterLink } from 'react-router-dom';
             </Typography>
             <Button color="inherit" component={RouterLink} to="/Home">Home</Button>
             <Button color="inherit" component={RouterLink} to="/results">Results</Button>
-            <Button color="inherit" component={RouterLink} to="/login">Login</Button>
+            <Button color="inherit" component={RouterLink} to="/">Login</Button>
             <Button color="inherit" component={RouterLink} to="/winner">Winner</Button>
           </Toolbar>
         </AppBar>
